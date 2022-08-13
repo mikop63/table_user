@@ -70,6 +70,11 @@ e.addEventListener('click', ()=>{
                         "Изменения были сохранены!",
                         "success"
                     )
+                    e.parentElement.parentElement.children[1].textContent=name;
+                    if (birthday != ''){e.parentElement.parentElement.children[2].textContent=birthday;}
+                    e.parentElement.parentElement.children[3].textContent=created;
+                    e.parentElement.parentElement.children[4].textContent=updated;
+                    
                 }
                 else{
                     swal.fire(

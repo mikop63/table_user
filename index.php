@@ -36,15 +36,12 @@
                             <td><?= $person[3] ?></td>
                             <td><?= $person[4] ?></td>
                             <td>
-                                <!-- <a href="upadate.php?id=<?= $person[0] ?>" >Изменить</a> -->
                                 <button class= "swall" type="button">Изменить</button>
                             </td>
                         </tr>
                     <?php
                 }
             ?>
-
-
         </table>
         
     </div>
